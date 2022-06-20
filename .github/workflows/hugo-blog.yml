@@ -26,6 +26,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: Vincent550102/Vincent55-Blog
-          publish_dir: ./docs
+          publish_dir: ./public
           publish_branch: gh-page
           cname: blog.vincent55.tw 
