@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>share on Vincent55&#39;s Blog</title>
+    <link>https://blog.vincnet55.tw/tags/share/</link>
+    <description>Recent content in share on Vincent55&#39;s Blog</description>
+    <image>
+      <url>https://i.imgur.com/zPuyQD5.jpg</url>
+      <link>https://i.imgur.com/zPuyQD5.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://blog.vincnet55.tw/tags/share/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章！</title>
+      <link>https://blog.vincnet55.tw/posts/firstpost/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://blog.vincnet55.tw/posts/firstpost/</guid>
+      <description>我的第一篇文章，介紹了部落格的定位。</description>
+    </item>
+    
+  </channel>
+</rss>
