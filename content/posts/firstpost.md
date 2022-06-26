@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "我的第一篇文章，介紹了部落格的定位。"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.vincent55.tw/posts/firstpost/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

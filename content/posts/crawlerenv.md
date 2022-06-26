@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "「工欲善其事，必先利其器」廢話不多說，來開始準備網路爬蟲環境吧。"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.vincent55.tw/posts/crawlerenv/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

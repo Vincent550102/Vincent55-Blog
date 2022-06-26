@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "AIS3 preexam 2022 的 writeup"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://blog.vincent55.tw/posts/ais3preexam2022/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
