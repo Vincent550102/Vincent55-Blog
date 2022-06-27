@@ -71,6 +71,7 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog.
+    imageUrl: "https://i.imgur.com/zPuyQD5.jpg"
 
   socialIcons:
     - name: website
