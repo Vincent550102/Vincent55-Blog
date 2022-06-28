@@ -36,11 +36,6 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-
-## 前言
-Linux 的開機自動啟動是非常常見且易用的，只需要將服務設定 systemd 之後設定 enable 即可。相對比較少人在用的是 Windows 的開機自動啟動，但其實 Windows 的開機自動啟動也是屬於容易設定的。
-
----
 ## 前言
 Linux 的開機自動啟動是非常常見且易用的，只需要將服務設定 systemd 之後設定 enable 即可。相對比較少人在用的是 Windows 的開機自動啟動，但其實 Windows 的開機自動啟動也是屬於容易設定的。
 
