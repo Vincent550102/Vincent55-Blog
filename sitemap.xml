@@ -3,13 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.vincent55.tw/tags/paperwork/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.vincent55.tw/posts/</loc>
-    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/tags/python/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.vincent55.tw/tags/</loc>
-    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/tags/%E7%94%9F%E6%B4%BB%E6%99%BA%E6%85%A7%E7%8E%8B/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/posts/paperworkwithprogram/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
