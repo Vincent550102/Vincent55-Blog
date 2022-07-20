@@ -37,10 +37,24 @@ cover:
 ---
 
 
+
 ## 前言
 因為有案子的需求要使用自動化的文書動作，因此這篇 blog 來記錄一下我用了哪些工具來達到這些功能，內容蠻雜的。
 
-## 內文
+## Pdf
+
+### 判斷 pdf 是否可被開啟（是否沒損毀）
+https://pypi.org/project/PyPDF2/
+
+```python
+from PyPDF2 import PdfWriter, PdfReader
+    def check_pdf_vaild(self):
+        try:
+            PdfReader(self.filename)
+            return True
+        except:
+            return False
+```
 
 ### pdf 轉 png
 https://pypi.org/project/pdf2image/
@@ -89,6 +103,7 @@ for idx, split_pdf_file_path in enumerate(self.split_pdf_file_paths):
         output.write(outputStream)
 ```
 
+
 ### html（url） 轉 pdf
 https://pdfkit.org/
 
@@ -106,7 +121,9 @@ options = {'custom-header': [
 pdfkit.from_url(f"{shopp_url}/OrderPrint.aspx", f"{self.filename}.pdf",options=options)
 ```
 
-### excel 操作
+## Excel
+
+### Excel 操作
 https://openpyxl.readthedocs.io/en/stable/
 ```python
 from openpyxl import load_workbook
@@ -125,29 +142,7 @@ template_excel.save(gen_excel_file)
 template_excel.close()
 ```
 
-### 確認 email 格式（regex）
-```python
-import re
-def email_check(self, email):
-    regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-    if email == None:
-        return False
-    if re.fullmatch(regex, email):
-        return True
-    else:
-        return False
-```
-
-### 重製資料夾
-```python
-import os
-import shutil
-
-gen_excel_folder = os.path.abspath(self.gen_excel_folder)
-if os.path.exists(gen_excel_folder):
-    shutil.rmtree(gen_excel_folder)
-os.mkdir(gen_excel_folder)
-```
+## Word
 
 ### word 生成 html
 https://pypi.org/project/mammoth/
@@ -197,18 +192,22 @@ class mailmerger():
         document_pdf.Close()
 ```
 
-### 判斷 pdf 是否可被開啟（是否沒損毀）
-https://pypi.org/project/PyPDF2/
+## Email
 
+### 確認 email 格式（regex）
 ```python
-from PyPDF2 import PdfWriter, PdfReader
-    def check_pdf_vaild(self):
-        try:
-            PdfReader(self.filename)
-            return True
-        except:
-            return False
+import re
+def email_check(self, email):
+    regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+    if email == None:
+        return False
+    if re.fullmatch(regex, email):
+        return True
+    else:
+        return False
 ```
+
+## 印表機 on Windows
 
 ### windows 透過 CLI 列印 pdf 到預設印表機
 透過 SumatraPDF.exe
@@ -231,3 +230,16 @@ def chk_offline(self):
     return (attributes & 0x00000400) >> 10
 ```
 
+
+## 一般
+
+### 重製資料夾
+```python
+import os
+import shutil
+
+gen_excel_folder = os.path.abspath(self.gen_excel_folder)
+if os.path.exists(gen_excel_folder):
+    shutil.rmtree(gen_excel_folder)
+os.mkdir(gen_excel_folder)
+```
