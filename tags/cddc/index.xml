@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CDDC on Vincent55&#39;s Blog</title>
+    <link>https://blog.vincent55.tw/tags/cddc/</link>
+    <description>Recent content in CDDC on Vincent55&#39;s Blog</description>
+    <image>
+      <url>https://i.imgur.com/zPuyQD5.jpg</url>
+      <link>https://i.imgur.com/zPuyQD5.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/tags/cddc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDDC CTF 2023 紀錄</title>
+      <link>https://blog.vincent55.tw/posts/cddcctf2023/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/cddcctf2023/</guid>
+      <description>這篇紀錄參加 CDDC CTF 2023 初賽及新加坡決賽，以及過程中發生的趣事。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,7 +9,25 @@
       <link>https://i.imgur.com/zPuyQD5.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDDC CTF 2023 紀錄</title>
+      <link>https://blog.vincent55.tw/posts/cddcctf2023/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/cddcctf2023/</guid>
+      <description>這篇紀錄參加 CDDC CTF 2023 初賽及新加坡決賽，以及過程中發生的趣事。</description>
+    </item>
+    
+    <item>
+      <title>AIS3 pre-exam 2023 Writeup</title>
+      <link>https://blog.vincent55.tw/posts/ais3preexam2023/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/ais3preexam2023/</guid>
+      <description>AIS3 preexam 2023 的 writeup</description>
+    </item>
+    
     <item>
       <title>AIS3 pre-exam 2022 Writeup</title>
       <link>https://blog.vincent55.tw/posts/ais3preexam2022/</link>
