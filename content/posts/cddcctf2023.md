@@ -42,7 +42,7 @@ cover:
 
 感謝 Zeze 的邀約，以及企業 [TeamT5](https://teamt5.org/tw/) 與 [ST Engineering](https://www.stengg.com/) 的贊助。
 
-某天 Zeze 問我要不要來打 CDDC，看了一下發現決賽可以去新加坡耶，當然好， 後續知道另外兩位隊友是 nella17 跟 ETT，真是太棒了。
+某天 Zeze 問我要不要來打 CDDC，看了一下發現決賽可以去新加坡耶，當然好，後續知道另外兩位隊友是 nella17 跟 ETT。
 
 ## 初賽
 
