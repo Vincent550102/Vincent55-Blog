@@ -1,5 +1,5 @@
 ---
-title: "網路爬蟲環境設定（Python、pipenv、Vs Code）"
+title: "網路爬蟲環境設定（Python、pipenv、VSCode）"
 date: 2022-06-20
 # weight: 1
 # aliases: ["/first"]
@@ -36,12 +36,11 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-
 ## 前言
-首先，這篇文其實是篇搬運文XD是從筆者之前參加的 [IThome 鐵人賽](https://ithelp.ithome.com.tw/m/users/20134430/ironman/4307) 中點閱最高的 [這篇文章](https://ithelp.ithome.com.tw/m/articles/10265084) 搬運過來的，當時參加的 IThome 鐵人賽是以網路爬蟲與反爬蟲技術作為主題，結果環境設定的文章與基礎語法是最受歡迎的🤣。
+
+首先，這篇文其實是篇搬運文 XD 是從筆者之前參加的 [IThome 鐵人賽](https://ithelp.ithome.com.tw/m/users/20134430/ironman/4307) 中點閱最高的 [這篇文章](https://ithelp.ithome.com.tw/m/articles/10265084) 搬運過來的，當時參加的 IThome 鐵人賽是以網路爬蟲與反爬蟲技術作為主題，結果環境設定的文章與基礎語法是最受歡迎的 🤣。
 
 有興趣看網路爬蟲的其他文章可以 [點我](https://ithelp.ithome.com.tw/m/users/20134430/ironman/4307)
-
 
 ## Python3
 
@@ -51,21 +50,17 @@ python3 載點 : [https://www.python.org/downloads/](https://www.python.org/down
 
 ![](https://i.imgur.com/iCy82ov.png)
 
-
-▲下載時記得要將 Add Python 3.9 to PATH 開啟來才能在 cmd 等 command line 直接下 python 使用
+▲ 下載時記得要將 Add Python 3.9 to PATH 開啟來才能在 cmd 等 command line 直接下 python 使用
 
 ![](https://i.imgur.com/NyDPvCU.png)
-
 
 ▲ Win + R 啟動執行，之後打入 `cmd` 打開命令提示字元
 
 ![](https://i.imgur.com/RCVFx8g.png)
 
-
 ▲ 打入 `python --version` 若有出現讀者下載 python 的版本則代表安裝成功
 
 ![](https://i.imgur.com/0ZrfIEn.png)
-
 
 ▲ 打入 `pip --version` 若有出現 pip 的版本則代表安裝成功（原版下載連結會同步把 pip 安裝好）
 
@@ -85,11 +80,9 @@ pipenv 是個虛擬開發環境的工具，會生成 `Pipfile` `Pipfile.lock` �
 
 ![](https://i.imgur.com/luFUm3E.png)
 
-
 ▲ 打入 pip install pipenv 下載 pipenv
 
 ![](https://i.imgur.com/kVv5jpD.png)
-
 
 ▲ 打入 pipenv —version 查看是否成功安裝且能執行
 
@@ -97,13 +90,11 @@ pipenv 是個虛擬開發環境的工具，會生成 `Pipfile` `Pipfile.lock` �
 
 ![](https://i.imgur.com/Zn5IL5c.png)
 
-
 ▲ 在欲開發專案的最外層目錄的搜尋欄打入 cmd 以在當前目錄開啟 cmd
 
 接下來我們來裝 `requests` 這個套件測試。在上一步開啟的 cmd 中打入 `pipenv install requests` ，由於在當前目錄還沒虛擬環境，因此 pipenv 會先幫你建好一個，之後才會開始在這個虛擬環境安裝 `requests`這個套件。
 
 ![](https://i.imgur.com/PYpGWBM.png)
-
 
 ▲ 首次 pipenv install 在當前目錄建立虛擬環境並在虛擬環境內安裝套件
 
@@ -115,20 +106,17 @@ pipenv 是個虛擬開發環境的工具，會生成 `Pipfile` `Pipfile.lock` �
 
 ![](https://i.imgur.com/ytkxq6h.png)
 
-
 ▲ 每個專案執行 pipenv 產生虛擬環境後自動生成的套件管理文件 Pipfile Pipfile.lock
 
 接下來打入 `pipenv shell` 進入虛擬環境來看看是否成功安裝 `requests` 這個套件。進入後打入 `python` 開啟 python 直譯器，在直譯器內打入 `import requests` 如果向下圖一樣不會報錯，就代表成功安裝套件。
 
 ![](https://i.imgur.com/Jq5LkbI.png)
 
-
 ▲ 檢測是否成功在虛擬環境內安裝套件
 
-輸入 `quit()` 離開 python 直譯器，接下來輸入 `exit` 離開 pipenv 虛擬環境。 
+輸入 `quit()` 離開 python 直譯器，接下來輸入 `exit` 離開 pipenv 虛擬環境。
 
 ![](https://i.imgur.com/Jkw3Vl2.png)
-
 
 ▲ 離開 python 直譯器與 pipenv 虛擬環境
 
@@ -136,14 +124,13 @@ pipenv 是個虛擬開發環境的工具，會生成 `Pipfile` `Pipfile.lock` �
 
 ![](https://i.imgur.com/LyJNNPH.png)
 
-
-▲ 輸入 pipenv —venv 查看虛擬環境放置路徑，沒意外的話會在C:\Users\%username%\.virtualenvs\test-8TtvdmFW
+▲ 輸入 pipenv —venv 查看虛擬環境放置路徑，沒意外的話會在 C:\Users\%username%\.virtualenvs\test-8TtvdmFW
 
 ※有興趣的讀者能到 `pipenv --venv`給的路徑去看看套件的長相歐
 
 了解 pipenv 基本操作後，接下來鐵人賽的內容將會頻繁使用 pipenv 來管理我們的套件，能在這裡找更多 pipenv 好用的功能
 
-pipenv 指令大全 [:](https://hackmd.io/@sam-liaw/BJnLhni7U)　[https://medium.com/@hiimdoublej/pipenv指令大全-6e4415cc8a15](https://medium.com/@hiimdoublej/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
+pipenv 指令大全 [:](https://hackmd.io/@sam-liaw/BJnLhni7U)　[https://medium.com/@hiimdoublej/pipenv 指令大全-6e4415cc8a15](https://medium.com/@hiimdoublej/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
 
 ## Visual Studio Code
 
@@ -155,13 +142,11 @@ Vscode 擴充套件推薦：[https://hackmd.io/@sam-liaw/BJnLhni7U](https://hack
 
 ![](https://i.imgur.com/Erp0y8H.png)
 
-
 ▲ 下載 Vscode 時記得將紅色的打勾
 
 安裝完成後，先不要直接打開 Vscode。相同地，我們能在想要做專案的資料夾上方的搜尋欄打入 `code.cmd .` 就可以在當前目錄下開啟 Vscode。
 
 ![](https://i.imgur.com/SsBneZM.png)
-
 
 ▲ 在當前目錄下開啟 Vscode
 
@@ -177,22 +162,19 @@ Vscode 擴充套件推薦：[https://hackmd.io/@sam-liaw/BJnLhni7U](https://hack
 
 ![](https://i.imgur.com/fRgcToU.png)
 
-
 ▲ 在最後一行加入 pipenv 虛擬環境路徑
 
 之後重啟 Vscode 之後點選左下角 Python 環境，就會發現可以選擇虛擬環境了~
 
 ![](https://i.imgur.com/MNlbhZI.png)
 
-
 ▲ 點擊圖中圈起來的虛擬環境，即可切換到 pipenv 的虛擬環境
 
 ---
 
-
 ## 補充資料
 
-pipenv 指令大全 [:](https://hackmd.io/@sam-liaw/BJnLhni7U)　[https://medium.com/@hiimdoublej/pipenv指令大全-6e4415cc8a15](https://medium.com/@hiimdoublej/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
+pipenv 指令大全 [:](https://hackmd.io/@sam-liaw/BJnLhni7U)　[https://medium.com/@hiimdoublej/pipenv 指令大全-6e4415cc8a15](https://medium.com/@hiimdoublej/pipenv%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8-6e4415cc8a15)
 
 pipenv 簡潔小抄 [:](https://hackmd.io/@sam-liaw/BJnLhni7U)　[https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d55](https://gist.github.com/bradtraversy/c70a93d6536ed63786c434707b898d55)
 

@@ -1,6 +1,6 @@
 ---
 title: "在 Debian 安裝 Neovim 並設定 AstroNvim 自訂設定檔"
-date: 2023-07-09
+date: 2023-07-08
 # weight: 1
 # aliases: ["/first"]
 tags: ["neovim", "setup"]
