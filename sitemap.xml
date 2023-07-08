@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.vincent55.tw/tags/neovim/</loc>
+    <lastmod>2023-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/posts/</loc>
+    <lastmod>2023-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/tags/setup/</loc>
+    <lastmod>2023-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/tags/</loc>
+    <lastmod>2023-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.vincent55.tw/posts/setupnvim/</loc>
+    <lastmod>2023-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.vincent55.tw/tags/cddc/</loc>
     <lastmod>2023-06-25T00:00:00+00:00</lastmod>
   </url>
@@ -14,16 +39,6 @@
   
   <url>
     <loc>https://blog.vincent55.tw/tags/ctf/</loc>
-    <lastmod>2023-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.vincent55.tw/posts/</loc>
-    <lastmod>2023-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.vincent55.tw/tags/</loc>
     <lastmod>2023-06-25T00:00:00+00:00</lastmod>
   </url>
   

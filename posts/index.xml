@@ -9,7 +9,16 @@
       <link>https://i.imgur.com/zPuyQD5.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Debian 安裝 Neovim 並設定 AstroNvim 自訂設定檔</title>
+      <link>https://blog.vincent55.tw/posts/setupnvim/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/setupnvim/</guid>
+      <description>紀錄一下在 Debian 作業系統上安裝 Neovim 並設定 AstroNvim 自訂設定檔</description>
+    </item>
+    
     <item>
       <title>CDDC CTF 2023 紀錄</title>
       <link>https://blog.vincent55.tw/posts/cddcctf2023/</link>
@@ -56,7 +65,7 @@
     </item>
     
     <item>
-      <title>網路爬蟲環境設定（Python、pipenv、Vs Code）</title>
+      <title>網路爬蟲環境設定（Python、pipenv、VSCode）</title>
       <link>https://blog.vincent55.tw/posts/crawlerenv/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       
