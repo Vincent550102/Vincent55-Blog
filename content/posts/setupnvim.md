@@ -42,7 +42,7 @@ cover:
 
 ```bash
 sudo apt-get update
-sudo apt-get -y install fuse git
+sudo apt-get -y install fuse git python3-venv unzip ripgrep fzf
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 chmod u+x nvim.appimage && sudo mv ./nvim.appimage /usr/bin/nvim
 ```
