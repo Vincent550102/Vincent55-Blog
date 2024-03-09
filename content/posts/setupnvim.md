@@ -51,6 +51,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 nvm install node
 npm i -g eslint
 
+# install cargo
+curl https://sh.rustup.rs -sSf | sh
+
 # install nvim
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 chmod u+x nvim.appimage && sudo mv ./nvim.appimage /usr/bin/nvim
