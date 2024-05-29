@@ -1,7 +1,8 @@
 ---
-title: "Python Descriptor"
+title: "深入解析 Python descriptor 與其 opcode 處理"
 date: 2024-05-25T10:38:43+08:00
 draft: false
+ShowToc: true
 ---
 
 ## 環境
