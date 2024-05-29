@@ -43,7 +43,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+      #disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "https://i.imgur.com/zPuyQD5.jpg"
     favicon16x16: "https://i.imgur.com/zPuyQD5.jpg"
@@ -135,9 +135,8 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
+      #noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    #codeFences: true
+    #guessSyntax: true
+    style: monokai
