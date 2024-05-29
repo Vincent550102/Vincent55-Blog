@@ -10,7 +10,18 @@
       <link>https://i.imgur.com/zPuyQD5.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 May 2024 10:38:43 +0800</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Descriptor</title>
+      <link>https://blog.vincent55.tw/posts/python_descriptor/</link>
+      <pubDate>Sat, 25 May 2024 10:38:43 +0800</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/python_descriptor/</guid>
+      <description>環境 Python 3.9
+https://github.com/python/cpython/blob/3.9/
+ .info-box { padding: 1em; margin-bottom: 1em; border-left: 5px solid #2196F3; background-color: #c0c0c0; color: #101010; font-size: 16px; } .info-box code { color: #003366; background-color: #f8f8f8; padding: 2px 4px; border-radius: 3px; } .info-box code { color: #003366; background-color: #f8f8f8; padding: 2px 4px; border-radius: 3px; } .info-box a { color: #0066cc; text-decoration: none; } .info-box a:hover, .info-box a:focus { color: #004499; text-decoration: underline; }  可以發現 Python 3.10 中此處 ceval.</description>
+    </item>
+    
     <item>
       <title>在 Debian 安裝 Neovim 並設定 AstroNvim 自訂設定檔</title>
       <link>https://blog.vincent55.tw/posts/setupnvim/</link>
