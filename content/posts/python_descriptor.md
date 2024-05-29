@@ -46,7 +46,7 @@ meow
 
 
 {{< info >}}
-`LOAD_ATTR` 在 Python 中是個十分常見的 bytecode，當我們使用形如 `a.b` 的操作（求某個值）時，就會使用這個 bytecode，另外，若我們要在這裡保存值，就會使用 `STORE_ATTR`。
+`LOAD_ATTR` 在 Python bytescode 中是個十分常見的 opcode，當我們使用形如 `a.b` 的操作（求某個值）時，就會使用這個 opcode，另外，若我們要在這裡保存值，就會使用 `STORE_ATTR`。
 {{< /info >}}
 
 使用 `dis` 這個模組來反組譯分析 CPython bytecode
@@ -70,7 +70,7 @@ In [3]: dis.dis("foo.b = 'hello'")
               8 RETURN_VALUE
 ```
 
-接下來，我們要理解描述器的原理，我們就必須去看這兩個 bytecode 的原始碼，接下來以 `LOAD_ATTR` 為例。
+接下來，我們要理解描述器的原理，我們就必須去看這兩個 opcode 的原始碼，接下來以 `LOAD_ATTR` 為例。
 
 可以看到在 [Python/ceval.c](https://github.com/python/cpython/blob/200762426b4b9878c33cdef620aa1a51631dd5df/Python/ceval.c#L2993) 中，包含了 `LOAD_ATTR` 的 case，又可以發現，他主要是使用了 `PyObject_GetAttr`。
 
