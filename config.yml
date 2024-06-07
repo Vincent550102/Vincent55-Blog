@@ -139,4 +139,4 @@ markup:
     # anchorLineNos: true
     #codeFences: true
     #guessSyntax: true
-    style: monokai
+    #style: monokai
