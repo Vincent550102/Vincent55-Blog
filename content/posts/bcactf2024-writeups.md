@@ -173,6 +173,12 @@ Error occured: 'bcactf{PyTH0n_M4st3R_Pr0veD}'; Message could not be sent.
 
 ### Jailbreak revenge
 
+{{< info >}}
+由於 Jailbreak 1 跟 2 都可以用以下 payload 繞過關鍵字檢查，所以才會有 revenge XDDD
+pyjail 真滴很難出XD
+`𝘱𝘳𝘪𝘯𝘵(𝘧𝘭𝘢𝘨)`
+{{< /info >}}
+
 ```python!
 def sanitize(letter):
     print("Checking for contraband...")
