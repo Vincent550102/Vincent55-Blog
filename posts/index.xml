@@ -20,6 +20,7 @@
       <description>前言 這次端午節跟牛肉湯夥伴們用了一些時間來打這場 CTF，解了 web 跟 misc ，剩下的就交給隊友。 因為時間沒有很多，所以策略就是先從分數高的開始解！
 這篇記錄我覺得很酷的一些題目。
 最後打了 25/1201
+題目們在這 https://github.com/BCACTF/bcactf-5.0
 misc Jailbreak1 def sanitize(letter): print(&amp;quot;Checking for contraband...&amp;quot;) return any([i in letter.lower() for i in BANNED_CHARS]) BANNED_CHARS = &amp;quot;gdvxftundmnt&#39;~`@#$%^&amp;amp;*-/.{}&amp;quot; flag = open(&#39;flag.txt&#39;).read().strip() print(&amp;quot;Welcome to the prison&#39;s mail center&amp;quot;) msg = input(&amp;quot;Please enter your message: &amp;quot;) if sanitize(msg): print(&amp;quot;Contraband letters found!\nMessage Deleted!&amp;quot;) exit() exec(msg) 單純 ban 掉一些字元，也不能用 .，也不會將 exec 結果回傳。
 先寫個腳本看我們還剩什麼能用:
 import builtins exclude_chars = set(&amp;quot;gdvxftundmnt&amp;quot;) builtins_not_containing_chars = [] for name in dir(builtins): if not any(char in name for char in exclude_chars): builtins_not_containing_chars.</description>
