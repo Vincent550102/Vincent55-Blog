@@ -403,7 +403,7 @@ UPDATE users SET id=(case when id=1 then 0 else 1 end) WHERE id=3 OR id=1;--
 
 ### Dock Finder
 
-這題我是接手 ball54 的，他已經能成功執行 JavaScript了，但不知道為何不能 RCE，差在把 flag 拿回來。
+這題我是接手 ball45 的，他已經能成功執行 JavaScript了，但不知道為何不能 RCE，差在把 flag 拿回來。
 主要是用這 [CVE-2022-29078](https://eslam.io/posts/ejs-server-side-template-injection-rce/)
 
 主要的成因是在
