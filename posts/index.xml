@@ -10,7 +10,23 @@
       <link>https://i.imgur.com/zPuyQD5.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2024 09:38:43 +0800</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Sep 2025 18:38:43 +0800</lastBuildDate><atom:link href="https://blog.vincent55.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不需要括號的 Python</title>
+      <link>https://blog.vincent55.tw/posts/python-without-parentheses/</link>
+      <pubDate>Fri, 19 Sep 2025 18:38:43 +0800</pubDate>
+      
+      <guid>https://blog.vincent55.tw/posts/python-without-parentheses/</guid>
+      <description>前言 看到 huli 大大發的「不需要括號跟分號的 XSS」有感而發，於是我試著寫一個 Python 版本。
+不過 Python 可沒有 tagged templates 語法糖給你用，所以我們要想其他方式呼叫函式。
+考慮以下程式碼：
+def safe_eval(expr): if &amp;#39;(&amp;#39; in expr or &amp;#39;)&amp;#39; in expr: raise TypeError(&amp;#34;safe_eval does not allow ().&amp;#34;) return eval(expr) print(safe_eval(input())) 你會想要怎麼去搞爆他，例如我們要去讀取機密檔案，或者是執行任意指令。
+eval 可能太難了，我們先從 “safe_exec“ 開始，也就是：
+def safe_exec(expr): if &amp;#39;(&amp;#39; in expr or &amp;#39;)&amp;#39; in expr: raise TypeError(&amp;#34;safe_eval does not allow ().&amp;#34;) return exec(expr) safe_exec(input()) safe_exec（先從 statement 開始） exec 可以執行整段程式碼（statements），所以比較容易透過裝飾器等語法達成。
+在 Python 裡面支援裝飾器（decorator），讓你能夠在不修改原函式的情況下，在其之上添加新功能，例如：
+def my_decorator(func): def wrapper(): print(&amp;#34;&amp;gt;&amp;gt; start func&amp;#34;) func() print(&amp;#34;&amp;gt;&amp;gt; end func&amp;#34;) return wrapper @my_decorator def foo(): print(&amp;#34;meowmeow!</description>
+    </item>
+    
     <item>
       <title>碩士推甄 114 - 台大資安碩、交大資安碩與資工碩</title>
       <link>https://blog.vincent55.tw/posts/admission2024/</link>
