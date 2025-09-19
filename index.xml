@@ -14,7 +14,7 @@
     <item>
       <title>不需要括號的 Python</title>
       <link>https://blog.vincent55.tw/posts/python-without-parentheses/</link>
-      <pubDate>Fri, 19 Sep 2025 18:38:43 +0800</pubDate>
+      <pubDate>Fri, 19 Sep 2025 18:39:43 +0800</pubDate>
       
       <guid>https://blog.vincent55.tw/posts/python-without-parentheses/</guid>
       <description>前言 看到 huli 大大發的「不需要括號跟分號的 XSS」有感而發，於是我試著寫一個 Python 版本。
