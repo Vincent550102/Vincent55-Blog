@@ -1,6 +1,6 @@
 ---
 title: "不需要括號的 Python"
-date: 2025-09-19T18:38:43+08:00
+date: 2025-09-19T18:39:43+08:00
 draft: false
 ShowToc: true
 ---
